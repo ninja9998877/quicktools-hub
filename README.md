@@ -101,6 +101,26 @@ npm run dev
 
 ## Deployment
 
+### GitHub Setup
+Follow the instructions in [GITHUB_SETUP.md](./GITHUB_SETUP.md) to connect your local repository to GitHub.
+
+### Vercel Deployment
+This project is optimized for Vercel deployment. Follow these steps:
+
+1. Push your code to GitHub
+2. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+3. Import your GitHub repository
+4. Vercel will automatically detect the frontend and backend configurations
+5. Configure environment variables as described in [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+For optimal performance, deploy frontend and backend separately:
+- Frontend: Deploy from `/frontend` directory
+- Backend API: Deploy from `/backend` directory
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
+
+## Deployment
+
 Use Docker Compose for production deployment:
 
 ```bash

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "quicktools-hub-api",
+  "builds": [
+    {
+      "src": "src/server.ts",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["dist/**"],
+        "excludeFiles": ["node_modules/**", ".git/**"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/server.ts"
+    }
+  ]
+}
