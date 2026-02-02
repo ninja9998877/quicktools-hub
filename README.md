@@ -117,6 +117,8 @@ For optimal performance, deploy frontend and backend separately:
 - Frontend: Deploy from `/frontend` directory
 - Backend API: Deploy from `/backend` directory
 
+For detailed Vercel deployment instructions with your account, see [VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md).
+
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 ## Deployment

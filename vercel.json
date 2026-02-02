@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "name": "quicktools-hub-frontend",
+      "directory": "./frontend",
+      "environment": [
+        {
+          "key": "REACT_APP_API_URL",
+          "value": "https://quicktools-hub-api.vercel.app"
+        }
+      ]
+    },
+    {
+      "name": "quicktools-hub-api",
+      "directory": "./backend",
+      "environment": []
+    }
+  ]
+}
